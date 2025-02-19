@@ -29,7 +29,26 @@
         </nav>
       </header>
 
-      <section class="layout__slider"></section>
+      <section class="layout__slider">
+        <button class="slider__btn-prev">
+            <i class="slider__icon fa-solid fa-caret-left"></i>
+        </button>
+        <div class="slider__slides">
+            <article class="slides__item slides__item--active">
+                <img class="slides__img" src="./assets/img/hojas.jpg" alt="Hojas">
+            </article>
+            <article class="slides__item">
+                <img class="slides__img" src="./assets/img/cielo.jpg" alt="Cielo">
+            </article>
+            <article class="slides__item">
+                <img class="slides__img" src="./assets/img/rojo.jpg" alt="Rojo">
+            </article>
+        </div>
+
+        <button class="slider__btn-next">
+            <i class="slider__icon fa-solid fa-caret-right"></i>
+        </button>
+      </section>
 
       <main class="layout__articles"></main>
 
