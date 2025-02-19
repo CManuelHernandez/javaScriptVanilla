@@ -117,7 +117,40 @@
         </article>
       </main>
 
-      <aside class="layout__aside"></aside>
+      <aside class="layout__aside">
+        <header class="aside__header">
+            <div class="header__container-title">
+                <h3 class="header__title">
+                    <span class="title__span">¿Quien soy?</span>
+                </h3>
+            </div>
+            <div class="header__container-img">
+                <img class="header__img" src="./assets/img/caracol.jpg" alt="Foto de perfil">
+            </div>
+            <p class="header__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit eveniet cum quis quidem, ducimus vitae amet delectus placeat enim, optio ea neque veritatis officiis inventore, necessitatibus itaque labore est magni.</p>
+        </header>
+
+        <form class="aside__login">
+            <div class="login__container-title">
+                <h3 class="login">
+                    <span class="title__span">Identificate</span>
+                </h3>
+            </div>
+            <div class="login__form-group">
+                <label clas="login__label" for="name">Nombre: </label>
+                <input class="login__input" type="text" id="name" name="name" required/>
+            </div>
+            <div class="login__form-group">
+                <label clas="login__label" for="email">Emnail: </label>
+                <input class="login__input" type="email" id="email" name="email" required/>
+            </div>
+            <div class="login__form-group">
+                <label clas="login__label" for="pass">Contraseña: </label>
+                <input class="login__input" type="password" id="pass" name="pass" required/>
+            </div>
+            <input type="button" value="ENTRAR" class="login__submit"/>
+        </form>
+      </aside>
     </div>
 
     <footer class="footer">
